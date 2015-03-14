@@ -3,8 +3,9 @@
 2. Create a `wordpress` dir under `apps`
 3. Create a `htdocs` dir under your new `wordpress` dir
 4. Unpack your WordPress tar.gz or zip under the `htdocs` dir
-5. `git clone` this repo into `conf` under `wordpress
+5. `git clone` this repo into `conf` under `wordpress`
 6. edit the paths in the .conf files to reflect your path
+7. add the path to `wordpress/conf/nginx-prefix.conf` to `/dir/nginx/conf/bitnami/bitnami-apps-prefix.conf`
 7. Start your Bitnami NGINX stack like normal
 8. Go to `http://localhost:8080/wordpress` to complete your install
 9. ????
